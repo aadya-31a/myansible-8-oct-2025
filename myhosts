@@ -1,19 +1,19 @@
-(webserver)
+[webserver]
 172.31.39.142
 172.31.39.142
 172.31.36.35
 
-(webserver)
+[webserver]
 172.31.39.142
 172.31.36.35
 
-(appserver)
+[appserver]
 172.31.39.142
 172.31.36.35
 
-(debianserver)
+[debianserver]
 172.31.39.142
 
 
-(amazonserver)
+[amazonserver]
 172.31.36.35
