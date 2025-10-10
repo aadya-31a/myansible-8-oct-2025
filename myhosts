@@ -17,3 +17,10 @@
 
 [amazonserver]
 172.31.36.35
+
+
+
+[webserver:vars]
+myvar01= values
+webpackonubuntu= apache2
+webpackonredhat= httpd
