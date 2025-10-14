@@ -5,5 +5,5 @@
   - include_tasks: myfile.yml
   - name: i want to copy a file into node side 
     copy: 
-      src: mytestfile
-      dest: /home/raju/mytestfile 
+       src: mytestfile
+       dest: /home/raju/mytestfile 
