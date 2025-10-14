@@ -5,12 +5,16 @@
   - include_tasks: myfile.yml
   - name: i want to copy a file into node side 
     copy: 
-       src: mytestfile.yml
+       src: mytestfile
        dest: /home/raju/mytestfile 
   - name: install apache2 
     apt:
        name: apache2 
        state: present 
-
+  
+  - name: copy myindex file into node side 
+    template: 
+      src: myindex.j2
+      dest: /var/www/html/index.html
 
     
