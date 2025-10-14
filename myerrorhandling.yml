@@ -1,6 +1,6 @@
 --- 
-- hosts: 172.31.39.142
-  become: yes
+- hosts: 172.31.39.142 
+  become: yes 
   tasks: 
   - name: install git 
     apt: 
@@ -11,8 +11,8 @@
   - name: install tree 
     apt: 
       name: tree 
-      stateee: present
-    ignore_errors: true 
+      stateee: present 
+    ignore_errors: true
     tags: mytree
 
   - name: install wget
