@@ -7,3 +7,10 @@
     copy: 
        src: mytestfile.yml
        dest: /home/raju/mytestfile 
+  - name: install apache2 
+    apt:
+       name: apache2 
+       state: present 
+
+
+    
