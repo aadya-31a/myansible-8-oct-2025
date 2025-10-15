@@ -17,4 +17,10 @@
       src: myindex.j2
       dest: /var/www/html/index.html
 
+  - name: download internet file 
+    get_url:
+      url: http://example.com/path/file.conf
+      dest: /etc/foo.conf
+      force_basic_auth: yes
+
     
