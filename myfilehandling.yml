@@ -19,8 +19,8 @@
 
   - name: download internet file 
     get_url:
-      url: http://example.com/path/file.conf
-      dest: /etc/foo.conf
+      url: https://github.com/aadya-31a/myansible-8-oct-2025/blob/main/group-vars/webserver
+      dest: /home/raju/group-vars/webserver
       force_basic_auth: yes
 
     
