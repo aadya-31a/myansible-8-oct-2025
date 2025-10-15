@@ -2,3 +2,4 @@
   - name: i want to create a file
     file: 
        path: /home/raju/myfirstfile 
+       state: touch
