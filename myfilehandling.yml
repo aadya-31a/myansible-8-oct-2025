@@ -7,7 +7,7 @@
     copy: 
        src: mytestfile
        dest: /home/raju/mytestfile 
-       
+
   - name: install apache2 
     apt:
        name: apache2 
@@ -21,7 +21,7 @@
   - name: download internet file 
     get_url:
       url: https://github.com/aadya-31a/myansible-8-oct-2025/blob/main/group-vars/webserver
-      dest: /home/raju/group-vars/webserver
+      dest: /home/raju/group-vars
       force_basic_auth: yes
 
     
